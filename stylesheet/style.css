@@ -1,0 +1,271 @@
+/* font-family:'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Mulish:wght@200&display=swap');
+
+/* ESTILOS HEADER */
+
+header {
+    background-image: url(../images/wallpaper_azul_oscuro_1920x1200_124.jpeg)
+}
+
+.header__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+/* TOP BUTTON */
+
+div.home__top--button {
+    background-color: aliceblue;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px black;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+
+/* CAROUSEL */
+
+/* #carouselExampleDark {
+    height: 250px;
+} */
+
+#carousel1 {
+    height: 230px;
+    background-image: url(../images/1_kfoZJqoU5IDWz-u7ZclDtQ.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel2 {
+    height: 230px;
+    background-image: url(../images/image\ 2\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel3 {
+    height: 230px;
+    background-image: url(../images/home\ image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel4 {
+    height: 230px;
+    background-image: url(../images/home\ image4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__home .carousel-caption mark {
+    opacity: .75;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    #carousel1 {
+        height: 400px;
+
+    }
+    #carousel2 {
+        height: 400px;
+
+    }
+    #carousel3 {
+        height: 400px;
+
+    }
+    #carousel4 {
+        height: 400px;
+
+    }
+}
+
+/* ESTILOS INDEX */
+
+.home__images .first__row {
+    padding: 20px 0px;
+}
+
+.home__images .second__row {
+    padding: 20px 0px;
+}
+
+.home__images .third__row {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.home__images img {
+    height: 180px;
+}
+
+
+@media screen and (min-width: 400px) {
+    .home__images img {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home__images img {
+        height: 150px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .home__images img {
+        height: 250px;
+    }
+}
+
+
+
+
+/* ESTILOS CONTACT */
+
+.contact__title {
+    padding-top: 70px;
+}
+
+.textarea__contact textarea {
+    resize: none;
+}
+
+main .image__contact {
+    margin: 15px 0px;
+}
+
+
+@media screen and (min-width: 768px) {
+    main .image__contact {
+        width: 500px;
+        margin: 30px;
+    }
+}
+
+
+/* ESTILOS LOGIN */
+.login__main {
+    background-image: url(../images/login\ wallpaper.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.modal-content {
+    background-color: #1D2C55;
+    opacity: .85;
+    padding: 0 20px;
+    margin-bottom: 150px;
+    box-shadow: grey;
+}
+
+.modal-content h3 {
+    opacity: .99;
+}
+.user__image {
+    margin-top: -50px;
+    margin-bottom: 35px;
+} 
+
+.user__image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: grey;
+}
+
+.login__form {
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+
+/* ESTILOS ABOUT */
+
+.about__main {
+    margin-top: 100px;
+}
+
+.gallery__about img {
+    width: 100%;
+}
+
+.gallery__about .img__big {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.gallery__about .img__small {
+    height: 200px;
+    margin: 10px 0;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    .gallery__about .img__big {
+        height: 300px;
+    }
+    
+    .gallery__about .img__small {
+        height: 230px;
+    }
+
+    .efecto {
+        transition: all 1s ease-in
+    }
+  
+    .efecto:hover {
+      transform: scale(1.1);
+      box-shadow:0 0 15px black;
+    }
+
+}
+
+/* ESTILOS PAYMENT */
+.payment__main {
+    margin-top: 100px;
+}
+
+.payment__main img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+
+@media screen and (min-width: 768px) {
+    @keyframes slidein {
+        0% {
+          left: -100%;
+          opacity: 0;
+        }
+    
+        100% {
+          left: 0;
+          opacity: 1;
+        }
+      }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
